@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -141,8 +143,7 @@ main{
     overflow: auto scroll;
     column-gap: 20px;
     border-radius: 12px;
-    overflow-y: hidden
-    ;
+    overflow-y: hidden;
 }
 .section-2-item {
 
@@ -203,6 +204,11 @@ main{
     display: grid;
     grid-template-columns: repeat(6 ,1fr);
     gap:16px;
+    display: flex;
+    overflow: auto scroll;
+    column-gap: 20px;
+    border-radius: 12px;
+    overflow-y: hidden;
 }
 .cards .item{
     margin-top: 20px;
@@ -210,6 +216,7 @@ main{
     border-radius: 8px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
 }
 .cards .item h4{
     color: rgb(31, 31, 31);
